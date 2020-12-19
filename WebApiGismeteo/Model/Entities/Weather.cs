@@ -20,5 +20,8 @@ namespace WebApiGismeteo.Model.Entities
         public string Pressure { get; set; }
         [BsonElement("Humidity")]
         public string Humidity { get; set; }
+
+        [BsonElement("Date")]
+        public string Date { get; set; }
     }
 }
