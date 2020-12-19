@@ -203,7 +203,7 @@ namespace Parser.Controllers
             {
                 string svg = tegsCollection[i].OuterHtml;
 
-                File.WriteAllText($@"C:\Users\G580\source\repos\Gismeteo\Images\{cityName}{i - 4}.svg", svg);
+                File.WriteAllText($@"C:\Users\G580\Documents\GitHub\Gismeteo\Images\{cityName}{i - 4}.svg", svg);
 
             }
         }
