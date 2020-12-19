@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\G580\\source\\repos\\Gismeteo\\Parser\\Parser.csproj": {}
+    "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\Parser\\Parser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\G580\\source\\repos\\Gismeteo\\Parser\\Parser.csproj": {
+    "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\Parser\\Parser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G580\\source\\repos\\Gismeteo\\Parser\\Parser.csproj",
+        "projectUniqueName": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\Parser\\Parser.csproj",
         "projectName": "Parser",
-        "projectPath": "C:\\Users\\G580\\source\\repos\\Gismeteo\\Parser\\Parser.csproj",
+        "projectPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\Parser\\Parser.csproj",
         "packagesPath": "C:\\Users\\G580\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\G580\\source\\repos\\Gismeteo\\Parser\\obj\\",
+        "outputPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\Parser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\G580\\AppData\\Roaming\\NuGet\\NuGet.Config",

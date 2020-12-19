@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\G580\\source\\repos\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj": {}
+    "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\G580\\source\\repos\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj": {
+    "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G580\\source\\repos\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj",
+        "projectUniqueName": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj",
         "projectName": "WebApiGismeteo",
-        "projectPath": "C:\\Users\\G580\\source\\repos\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj",
+        "projectPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj",
         "packagesPath": "C:\\Users\\G580\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\G580\\source\\repos\\Gismeteo\\WebApiGismeteo\\obj\\",
+        "outputPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\WebApiGismeteo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\G580\\AppData\\Roaming\\NuGet\\NuGet.Config",

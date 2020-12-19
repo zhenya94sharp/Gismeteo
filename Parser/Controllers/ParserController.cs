@@ -208,11 +208,39 @@ namespace Parser.Controllers
             }
         }
 
+        private void GetDate(HtmlDocument doc)
+        {
+            tegsCollection = doc.DocumentNode.SelectNodes("//div[@class='w_date__day']");
+            int index = 0;
+
+            for (int i = 0; i < 10; i++)
+            {
+                string date = tegsCollection[i].InnerHtml;
+                string date2;
+
+                if (date == "Вс" || date == "Сб")
+                {
+                    date2= doc.DocumentNode.SelectNodes("//span[@class='w_date__date weekend']")[index].InnerHtml;
+                    date2 = date2.Replace('\n', ' ');
+                    date2 = date2.Replace(" ", "");
+                    index++;
+                }
+                else
+                {
+                    date2 = doc.DocumentNode.SelectNodes("//span[@class='w_date__date black']")[i].InnerHtml;
+                    date2 = date2.Replace('\n', ' ');
+                    date2 = date2.Replace(" ", "");
+                }
+                tempListWeathers[i].Date = date+" "+date2;
+            }
+        }
+
         private List<Weather> GetListWeathers(HtmlDocument doc, string cityName)
         {
             GetSvgImage(doc, cityName);
             CreateNewListWeather();
             GetWind(doc);
+            GetDate(doc);
             GetTemperature(doc);
             GetPressure(doc);
             GetPrecipitation(doc);

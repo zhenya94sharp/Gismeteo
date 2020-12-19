@@ -51,6 +51,7 @@ export let tableWeather={
             if(response.ok==true)
             {
                 this.weatherList=await response.json()
+                alert.window("Получены данные о погоде");
             }
             else
             {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZpuOlS8QpTn4pTNQ3rPzzJIxn+TFkgc7nrCW1xLE/PApkWiaxCbcPWW0YH/PieUNvqrCoYbUZFzGWUnC8HMlgw==",
+  "dgSpecHash": "uuw4gMHluRL3MpKeymz27CboTLBfSeX18hIp80OQ0S4ZPRMH+yTH7snIjqePoidCFOCorjoORwFGrnFmTMgHow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\G580\\source\\repos\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj",
+  "projectFilePath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\WebApiGismeteo\\WebApiGismeteo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\G580\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\G580\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
