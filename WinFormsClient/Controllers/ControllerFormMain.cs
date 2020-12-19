@@ -55,7 +55,7 @@ namespace WinFormsClient
                 return;
             }
 
-            SvgDocument image = SvgDocument.Open($@"C:\Users\G580\source\repos\Gismeteo\Images\{weather.Name}{indexDay+1}.svg");
+            SvgDocument image = SvgDocument.Open($@"C:\Users\G580\Documents\GitHub\Gismeteo\{weather.Name}{indexDay+1}.svg");
             form.pictureBox.Image = image.Draw();
             form.labelName.Text = weather.Name;
             form.labelTemperatureDay.Text = weather.ListTenDaysWeather[indexDay].TemperatureDay;

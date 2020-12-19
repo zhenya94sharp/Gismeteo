@@ -212,6 +212,7 @@ namespace Parser.Controllers
         {
             tegsCollection = doc.DocumentNode.SelectNodes("//div[@class='w_date__day']");
             int index = 0;
+            int index2 = 0;
 
             for (int i = 0; i < 10; i++)
             {
@@ -227,9 +228,10 @@ namespace Parser.Controllers
                 }
                 else
                 {
-                    date2 = doc.DocumentNode.SelectNodes("//span[@class='w_date__date black']")[i].InnerHtml;
+                    date2 = doc.DocumentNode.SelectNodes("//span[@class='w_date__date black']")[index2].InnerHtml;
                     date2 = date2.Replace('\n', ' ');
                     date2 = date2.Replace(" ", "");
+                    index2++;
                 }
                 tempListWeathers[i].Date = date+" "+date2;
             }

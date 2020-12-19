@@ -3,7 +3,7 @@ export let tableWeather={
         return{
             weatherList:[],
             weather:null,
-            num:0
+            date:null
         }
     },
     template:`
@@ -15,22 +15,39 @@ export let tableWeather={
               
             <button class="btn btn-danger" v-on:click="weatherLoad">Загрузить погоду</button>
 
-            <div>
-            <table v-if="weather!==null" class='table table-striped table-dark'>
+            <select v-if="weather!==null" v-model="date">
+            <option disabled value="">Выберите день...</option>
+            <option v-for="weather in weather.listTenDaysWeather" v-bind:value="weather.date">{{weather.date}}</option>
+            </select>
+
+            <div >
+            <table class='table table-striped table-dark'>
             <thead>
                 <tr>
                 <th scope='col'>День</th>
                 <th scope='col'>Температура днём</th>
                 <th scope='col'>Температура ночью</th>
-                <th scope='col'>Осадки</th>
+                <th scope='col'>Погодные условия</th>
                 <th scope='col'>Ветер</th>
                 <th scope='col'>Давление</th>
-                <th scope='col'>Влажность</th>
+                <th scope='col'>Осадки</th>
                 </tr>
             </thead>
             
-            <tbody>
+            <tbody v-if="weather!==null&&date==null">
                 <tr v-model="weather" v-for="weather in weather.listTenDaysWeather">
+                <td >{{weather.date}}</td>
+                <td >{{weather.temperatureDay}}</td>
+                <td >{{weather.temperatureNight}}</td>
+                <td >{{weather.humidity}}</td>
+                <td >{{weather.wind}}</td>
+                <td >{{weather.pressure}}</td>
+                <td >{{weather.precipitation}}</td>
+                </tr>
+            </tbody>
+
+            <tbody v-if="date!==null">
+                <tr v-model="date" v-for="weather in weather.listTenDaysWeather" v-if="date==weather.date">
                 <td >{{weather.date}}</td>
                 <td >{{weather.temperatureDay}}</td>
                 <td >{{weather.temperatureNight}}</td>
