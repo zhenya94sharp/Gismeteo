@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Parser.Entities
+namespace WinFormsClient
 {
     class Weather
     {
@@ -30,6 +34,9 @@ namespace Parser.Entities
             get; set;
         }
 
-        public string Date { get; set; }
+        public string Date
+        {
+            get; set;
+        }
     }
 }

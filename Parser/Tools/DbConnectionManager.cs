@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using GismeteoClassLibrary;
 using MongoDB.Bson;
 using MongoDB.Driver;
 

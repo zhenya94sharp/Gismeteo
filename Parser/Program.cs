@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using GismeteoClassLibrary;
 using HtmlAgilityPack;
 using Parser.Controllers;
-using Parser.Entities;
 using Parser.Tools;
 
 namespace Parser
@@ -51,8 +51,8 @@ namespace Parser
 
                     manager.AddWeatherAsync(allWeathers);
 
-                    Console.WriteLine(DateTime.Now + $":Все данные о погоде добавлены в Бд");
-                    Console.WriteLine();
+                    Console.WriteLine(DateTime.Now + ":Все данные о погоде добавлены в Бд");
+                    Console.WriteLine("************");
                 }
                 catch (Exception e)
                 {

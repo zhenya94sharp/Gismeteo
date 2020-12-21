@@ -1,0 +1,9 @@
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoClassLibrary\bin\Debug\netcoreapp3.1\GismeteoClassLibrary.deps.json
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoClassLibrary\bin\Debug\netcoreapp3.1\GismeteoClassLibrary.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoClassLibrary\bin\Debug\netcoreapp3.1\GismeteoClassLibrary.pdb
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoClassLibrary\obj\Debug\netcoreapp3.1\GismeteoClassLibrary.csprojAssemblyReference.cache
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoClassLibrary\obj\Debug\netcoreapp3.1\GismeteoClassLibrary.AssemblyInfoInputs.cache
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoClassLibrary\obj\Debug\netcoreapp3.1\GismeteoClassLibrary.AssemblyInfo.cs
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoClassLibrary\obj\Debug\netcoreapp3.1\GismeteoClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoClassLibrary\obj\Debug\netcoreapp3.1\GismeteoClassLibrary.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoClassLibrary\obj\Debug\netcoreapp3.1\GismeteoClassLibrary.pdb

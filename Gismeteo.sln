@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsClient", "WinFormsC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parser", "Parser\Parser.csproj", "{E5577993-82BC-4593-8279-DBB50481ACAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GismeteoClassLibrary", "GismeteoClassLibrary\GismeteoClassLibrary.csproj", "{20C9D4F5-14C5-435C-80B5-6DB2D1290D2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E5577993-82BC-4593-8279-DBB50481ACAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5577993-82BC-4593-8279-DBB50481ACAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5577993-82BC-4593-8279-DBB50481ACAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C9D4F5-14C5-435C-80B5-6DB2D1290D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C9D4F5-14C5-435C-80B5-6DB2D1290D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C9D4F5-14C5-435C-80B5-6DB2D1290D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C9D4F5-14C5-435C-80B5-6DB2D1290D2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

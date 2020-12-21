@@ -6,17 +6,18 @@ using System.Windows.Forms;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Svg;
-using WinFormsClient.Entities;
 
 namespace WinFormsClient
 {
     class ControllerFormMain
     {
         private FormMain form;
+        private List<WeatherInCity> weathersList;
 
         public ControllerFormMain(FormMain form)
         {
             this.form = form;
+            weathersList=new List<WeatherInCity>();
         }
 
         public async Task<List<WeatherInCity>> GetWeather()
@@ -32,38 +33,46 @@ namespace WinFormsClient
 
                 if (message.StatusCode == HttpStatusCode.OK)
                 {
-                    List<WeatherInCity> weathersList = JsonConvert.DeserializeObject<List<WeatherInCity>>(json);
+                    weathersList = JsonConvert.DeserializeObject<List<WeatherInCity>>(json);
 
                     return weathersList;
                 }
                 else
                 {
-                    throw new Exception(json);
+                    MessageBox.Show(json);
+                    return null;
                 }
             }
             catch (Exception e)
             {
-                throw new Exception("Ошибка Api! " + e.Message);
+                MessageBox.Show("Ошибка Api! " + e.Message);
+                return null;
             }
         }
 
-        public void DrawWeather(WeatherInCity weather, int indexDay)
+        public void DrawWeather(int indexCity, int indexDay)
         {
-            if (weather == null)
+            try
             {
-                MessageBox.Show("Вначале загрузите погоду");
-                return;
+                if (indexDay == -1)
+                {
+                    indexDay = 0;
+                }
+                SvgDocument image = SvgDocument.Open($@"Images\{weathersList[indexCity].Name}{indexDay + 1}.svg");
+                form.pictureBox.Image = image.Draw();
+                form.labelName.Text = weathersList[indexCity].Name;
+                form.labelTemperatureDay.Text = weathersList[indexCity].ListTenDaysWeather[indexDay].TemperatureDay;
+                form.labelTemperatureNight.Text = weathersList[indexCity].ListTenDaysWeather[indexDay].TemperatureNight;
+                form.labelHumidity.Text = weathersList[indexCity].ListTenDaysWeather[indexDay].Humidity;
+                form.labelWind.Text = weathersList[indexCity].ListTenDaysWeather[indexDay].Wind;
+                form.labelPrecipitation.Text = weathersList[indexCity].ListTenDaysWeather[indexDay].Precipitation;
+                form.labelPressure.Text = weathersList[indexCity].ListTenDaysWeather[indexDay].Pressure;
             }
-
-            SvgDocument image = SvgDocument.Open($@"C:\Users\G580\Documents\GitHub\Gismeteo\Images\{weather.Name}{indexDay+1}.svg");
-            form.pictureBox.Image = image.Draw();
-            form.labelName.Text = weather.Name;
-            form.labelTemperatureDay.Text = weather.ListTenDaysWeather[indexDay].TemperatureDay;
-            form.labelTemperatureNight.Text = weather.ListTenDaysWeather[indexDay].TemperatureNight;
-            form.labelHumidity.Text = weather.ListTenDaysWeather[indexDay].Humidity;
-            form.labelWind.Text = weather.ListTenDaysWeather[indexDay].Wind;
-            form.labelPrecipitation.Text = weather.ListTenDaysWeather[indexDay].Precipitation;
-            form.labelPressure.Text = weather.ListTenDaysWeather[indexDay].Pressure;
+            catch (Exception)
+            {
+                MessageBox.Show("Не удалось отобразить погоду");
+            }
+           
         }
 
     }

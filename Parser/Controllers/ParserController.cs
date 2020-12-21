@@ -5,8 +5,8 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using GismeteoClassLibrary;
 using HtmlAgilityPack;
-using Parser.Entities;
 
 namespace Parser.Controllers
 {
@@ -203,8 +203,7 @@ namespace Parser.Controllers
             {
                 string svg = tegsCollection[i].OuterHtml;
 
-                File.WriteAllText($@"C:\Users\G580\Documents\GitHub\Gismeteo\Images\{cityName}{i - 4}.svg", svg);
-
+                File.WriteAllText($@"C:\Users\G580\Documents\GitHub\Gismeteo\WinFormsClient\bin\Debug\Images\{cityName}{i - 4}.svg", svg);
             }
         }
 
