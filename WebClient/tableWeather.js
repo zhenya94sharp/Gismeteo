@@ -63,7 +63,7 @@ export let tableWeather={
     `,
     methods:{
         weatherLoad:async function (){
-            let response = await fetch("https://localhost:44300/api/Gismeteo/GetListWeather",
+            let response = await fetch("https://localhost:44389/api/Gismeteo/GetListWeather",
                 {
                     method:'GET'
                 }

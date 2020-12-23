@@ -23,9 +23,9 @@ namespace WebApiGismeteo.Controllers
 
                 return Ok(listWeathers);
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                return Conflict("Нет соединения с Бд");
+                return Conflict("Нет соединения с Бд"+e.Message);
             }
         }
     }
