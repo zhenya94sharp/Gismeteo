@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading;
 using System.Threading.Tasks;
 using GismeteoClassLibrary;
 using HtmlAgilityPack;
@@ -52,14 +51,12 @@ namespace Parser
                     manager.AddWeatherAsync(allWeathers);
 
                     Console.WriteLine(DateTime.Now + ":Все данные о погоде добавлены в Бд");
-                    Console.WriteLine("************");
+                    Console.WriteLine();
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine("Ошибка соединения" + e.Message);
                 }
-                Thread.Sleep(500);
-
 
                 Console.WriteLine("Для повторного запуска нажмите Enter. Для выхода введите exit");
                 string answer = Console.ReadLine();

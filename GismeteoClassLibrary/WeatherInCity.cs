@@ -1,24 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace GismeteoClassLibrary
 {
     public class WeatherInCity
     {
-        public string Name
-        {
-            get; set;
-        }
+        [BsonElement("Name")] 
+        public string Name { get; set; }
 
-        public string Href
-        {
-            get; set;
-        }
+        [BsonElement("Href")] 
+        public string Href { get; set; }
 
-        public List<Weather> ListTenDaysWeather
-        {
-            get; set;
-        }
+        [BsonElement("ListTenDaysWeather")] 
+        public List<Weather> ListTenDaysWeather { get; set; }
     }
 }

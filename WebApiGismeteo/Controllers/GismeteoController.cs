@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using GismeteoClassLibrary;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using WebApiGismeteo.Model.Entities;
 using WebApiGismeteo.Model.Tools;
 
 namespace WebApiGismeteo.Controllers

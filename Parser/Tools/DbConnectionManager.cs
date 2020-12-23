@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using GismeteoClassLibrary;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -31,6 +30,14 @@ namespace Parser.Tools
             collectionWeathers = db.GetCollection<WeatherInCity>("weather");
         }
 
+        public IMongoCollection<WeatherInCity> GetCollection()
+        {
+
+            db = client.GetDatabase("gismeteo");
+                collectionWeathers = db.GetCollection<WeatherInCity>("weather");
+            return collectionWeathers;
+        }
+
         public void AddWeatherAsync(List<WeatherInCity> allWeathers)
         {
             try
@@ -39,12 +46,11 @@ namespace Parser.Tools
                 {
                     collectionWeathers.ReplaceOneAsync(new BsonDocument("Name", item.Name), item);
                 }
-
-                //collectionWeathers.InsertManyAsync(allWeathers);
+                //await collectionWeathers.InsertManyAsync(allWeathers);
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new Exception("Ошибка соединения");
+                throw new Exception("Ошибка при добавлении погоды " + e.Message);
             }
         }
     }

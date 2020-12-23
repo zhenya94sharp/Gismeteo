@@ -1319,6 +1319,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "GismeteoClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MongoDB.Bson": "2.11.5"
+        },
+        "compile": {
+          "bin/placeholder/GismeteoClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GismeteoClassLibrary.dll": {}
+        }
       }
     }
   },
@@ -4791,10 +4804,16 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "GismeteoClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GismeteoClassLibrary/GismeteoClassLibrary.csproj",
+      "msbuildProject": "../GismeteoClassLibrary/GismeteoClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "GismeteoClassLibrary >= 1.0.0",
       "MongoDB.Driver >= 2.11.5",
       "MongoDB.Driver.Core >= 2.11.5"
     ]
@@ -4825,7 +4844,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

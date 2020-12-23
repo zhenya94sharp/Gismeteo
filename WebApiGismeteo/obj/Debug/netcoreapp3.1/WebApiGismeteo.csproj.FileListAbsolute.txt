@@ -64,3 +64,5 @@ C:\Users\G580\Documents\GitHub\Gismeteo\WebApiGismeteo\obj\Debug\netcoreapp3.1\W
 C:\Users\G580\Documents\GitHub\Gismeteo\WebApiGismeteo\obj\Debug\netcoreapp3.1\WebApiGismeteo.dll
 C:\Users\G580\Documents\GitHub\Gismeteo\WebApiGismeteo\obj\Debug\netcoreapp3.1\WebApiGismeteo.pdb
 C:\Users\G580\Documents\GitHub\Gismeteo\WebApiGismeteo\obj\Debug\netcoreapp3.1\WebApiGismeteo.genruntimeconfig.cache
+C:\Users\G580\Documents\GitHub\Gismeteo\WebApiGismeteo\bin\Debug\netcoreapp3.1\GismeteoClassLibrary.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\WebApiGismeteo\bin\Debug\netcoreapp3.1\GismeteoClassLibrary.pdb

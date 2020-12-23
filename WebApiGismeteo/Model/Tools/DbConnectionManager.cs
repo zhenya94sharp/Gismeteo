@@ -1,6 +1,6 @@
 ﻿using System;
+using GismeteoClassLibrary;
 using MongoDB.Driver;
-using WebApiGismeteo.Model.Entities;
 
 namespace WebApiGismeteo.Model.Tools
 {

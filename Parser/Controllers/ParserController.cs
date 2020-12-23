@@ -4,6 +4,7 @@ using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using GismeteoClassLibrary;
 using HtmlAgilityPack;
@@ -263,6 +264,7 @@ namespace Parser.Controllers
                 {
                     try
                     {
+                        Thread.Sleep(500);
                         htmlData = await LoadHtml(weather.Href);
                         result = true;
                     }
@@ -288,6 +290,7 @@ namespace Parser.Controllers
                 };
 
                 allWeathers.Add(weatherInCity);
+                Console.WriteLine();
             }
 
             return allWeathers;

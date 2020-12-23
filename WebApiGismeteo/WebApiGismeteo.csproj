@@ -9,5 +9,9 @@
     <PackageReference Include="MongoDB.Driver.Core" Version="2.11.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GismeteoClassLibrary\GismeteoClassLibrary.csproj" />
+  </ItemGroup>
+
 
 </Project>

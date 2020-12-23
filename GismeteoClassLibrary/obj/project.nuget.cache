@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BsDYLFcAXKzygCTjrLezmNpzRW9MCDtpDQT4H4W7p8HX1kJDlvGilwMqpBwvPKgbO0HWBPZLp44CKjJZ4k2AnA==",
+  "dgSpecHash": "M7sml0EPlNspf6yGQKpLwAMYtDLdXJU9gA+0DnXE3sVOZXEec+gyF5sLl2LSYTkuycwkRcBwa/cf+NiKrs1JvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\G580\\.nuget\\packages\\mongodb.bson\\2.11.5\\mongodb.bson.2.11.5.nupkg.sha512"
+  ],
   "logs": []
 }
