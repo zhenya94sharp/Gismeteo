@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using GismeteoClassLibrary;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -34,7 +35,7 @@ namespace Parser.Tools
         {
 
             db = client.GetDatabase("gismeteo");
-                collectionWeathers = db.GetCollection<WeatherInCity>("weather");
+            collectionWeathers = db.GetCollection<WeatherInCity>("weather");
             return collectionWeathers;
         }
 
@@ -46,6 +47,7 @@ namespace Parser.Tools
                 {
                     collectionWeathers.ReplaceOneAsync(new BsonDocument("Name", item.Name), item);
                 }
+
                 //await collectionWeathers.InsertManyAsync(allWeathers);
             }
             catch (Exception e)

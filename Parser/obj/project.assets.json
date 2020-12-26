@@ -88,24 +88,14 @@
           "lib/netstandard2.0/MongoDB.Driver.Core.dll": {}
         },
         "contentFiles": {
-          "contentFiles/any/netstandard2.0/Core/Compression/Snappy/lib/win/snappy32.dll": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netstandard2.0/Core/Compression/Snappy/lib/win/snappy64.dll": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netstandard2.0/Core/Compression/Zstandard/lib/win/libzstd.dll": {
-            "buildAction": "Content",
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
             "codeLanguage": "any",
             "copyToOutput": false
           }
         },
         "build": {
-          "build/MongoDB.Driver.Core.targets": {}
+          "build/_._": {}
         },
         "runtimeTargets": {
           "runtimes/win/native/libzstd.dll": {
@@ -1333,7 +1323,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MongoDB.Bson": "2.11.5"
+          "MongoDB.Bson": "2.11.5",
+          "MongoDB.Driver": "2.11.5"
         },
         "compile": {
           "bin/placeholder/GismeteoClassLibrary.dll": {}
@@ -4871,9 +4862,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "GismeteoClassLibrary >= 1.0.0",
-      "HtmlAgilityPack >= 1.11.28",
-      "MongoDB.Driver >= 2.11.5",
-      "MongoDB.Driver.Core >= 2.11.5"
+      "HtmlAgilityPack >= 1.11.28"
     ]
   },
   "packageFolders": {
@@ -4922,14 +4911,6 @@
           "HtmlAgilityPack": {
             "target": "Package",
             "version": "[1.11.28, )"
-          },
-          "MongoDB.Driver": {
-            "target": "Package",
-            "version": "[2.11.5, )"
-          },
-          "MongoDB.Driver.Core": {
-            "target": "Package",
-            "version": "[2.11.5, )"
           }
         },
         "imports": [

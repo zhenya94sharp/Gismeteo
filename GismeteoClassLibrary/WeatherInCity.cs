@@ -8,6 +8,8 @@ namespace GismeteoClassLibrary
 {
     public class WeatherInCity
     {
+        [BsonId]
+        [BsonIgnoreIfDefault]
         public ObjectId Id { get; set; }
 
         [BsonElement("Name")] 

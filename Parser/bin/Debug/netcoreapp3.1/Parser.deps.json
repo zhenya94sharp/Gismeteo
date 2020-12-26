@@ -9,9 +9,7 @@
       "Parser/1.0.0": {
         "dependencies": {
           "GismeteoClassLibrary": "1.0.0",
-          "HtmlAgilityPack": "1.11.28",
-          "MongoDB.Driver": "2.11.5",
-          "MongoDB.Driver.Core": "2.11.5"
+          "HtmlAgilityPack": "1.11.28"
         },
         "runtime": {
           "Parser.dll": {}
@@ -775,7 +773,8 @@
       },
       "GismeteoClassLibrary/1.0.0": {
         "dependencies": {
-          "MongoDB.Bson": "2.11.5"
+          "MongoDB.Bson": "2.11.5",
+          "MongoDB.Driver": "2.11.5"
         },
         "runtime": {
           "GismeteoClassLibrary.dll": {}

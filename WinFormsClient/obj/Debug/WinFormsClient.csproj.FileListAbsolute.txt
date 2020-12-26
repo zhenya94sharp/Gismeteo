@@ -24,7 +24,6 @@ C:\Users\G580\Documents\GitHub\Gismeteo\WinFormsClient\bin\Debug\Svg.dll
 C:\Users\G580\Documents\GitHub\Gismeteo\WinFormsClient\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Users\G580\Documents\GitHub\Gismeteo\WinFormsClient\bin\Debug\Newtonsoft.Json.xml
 C:\Users\G580\Documents\GitHub\Gismeteo\WinFormsClient\bin\Debug\Svg.xml
-C:\Users\G580\Documents\GitHub\Gismeteo\WinFormsClient\obj\Debug\WinFormsClient.csprojAssemblyReference.cache
 C:\Users\G580\Documents\GitHub\Gismeteo\WinFormsClient\obj\Debug\WinFormsClient.FormMain.resources
 C:\Users\G580\Documents\GitHub\Gismeteo\WinFormsClient\obj\Debug\WinFormsClient.Properties.Resources.resources
 C:\Users\G580\Documents\GitHub\Gismeteo\WinFormsClient\obj\Debug\WinFormsClient.csproj.GenerateResource.cache

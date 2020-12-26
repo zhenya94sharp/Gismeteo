@@ -27,7 +27,7 @@ namespace WinFormsClient
                 HttpClient client = new HttpClient();
 
                 HttpResponseMessage message =
-                    await client.GetAsync("https://localhost:44389/api/Gismeteo/GetListWeather/");
+                    await client.GetAsync("https://localhost:44310/Gismeteo/");
 
                 string json = await message.Content.ReadAsStringAsync();
 
