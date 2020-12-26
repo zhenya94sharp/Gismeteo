@@ -4,6 +4,7 @@ using System.Net;
 using System.Net.Http;
 using System.Windows.Forms;
 using System.Threading.Tasks;
+using GismeteoWinClassLibrary;
 using Newtonsoft.Json;
 using Svg;
 

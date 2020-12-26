@@ -8,17 +8,23 @@ export let tableWeather={
     },
     template:`
         <div>
-            <select v-model="weather">
-            <option disabled value="">Выберите город...</option>
-            <option v-for="weather in weatherList" v-bind:value="weather">{{weather.name}}</option>
-            </select> 
+            <div>
+                <h3><label class="badge badge-primary">Выберите город</label></h3>
+                <select v-model="weather">
+                <option disabled value="">Выберите город...</option>
+                <option v-for="weather in weatherList" v-bind:value="weather">{{weather.name}}</option>
+                </select> 
+            </div>
+ 
+            <div v-if="weather!==null" >
+                    <h3><label class="badge badge-secondary">Выберите дату</label></h3>
+                    <select v-model="date">
+                    <option disabled value="">Выберите день...</option>
+                    <option v-for="weather in weather.listTenDaysWeather" v-bind:value="weather.date">{{weather.date}}</option>
+                    </select>
+            </div>
               
             <button class="btn btn-danger" v-on:click="weatherLoad">Загрузить погоду</button>
-
-            <select v-if="weather!==null" v-model="date">
-            <option disabled value="">Выберите день...</option>
-            <option v-for="weather in weather.listTenDaysWeather" v-bind:value="weather.date">{{weather.date}}</option>
-            </select>
 
             <div >
             <table class='table table-striped table-dark'>

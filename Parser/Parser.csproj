@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GismeteoClassLibrary\GismeteoClassLibrary.csproj" />
+    <ProjectReference Include="..\GismeteoClassLibrary\GismeteoCoreClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>

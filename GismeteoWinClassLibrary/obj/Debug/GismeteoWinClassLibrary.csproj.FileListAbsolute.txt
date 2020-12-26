@@ -1,0 +1,15 @@
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\GismeteoWinClassLibrary.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\GismeteoWinClassLibrary.pdb
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\DnsClient.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\MongoDB.Bson.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\SharpCompress.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\System.Buffers.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\DnsClient.xml
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\MongoDB.Bson.xml
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\bin\Debug\System.Buffers.xml
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\GismeteoWinClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\GismeteoWinClassLibrary.csproj.CopyComplete
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\GismeteoWinClassLibrary.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\GismeteoWinClassLibrary.pdb
+C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\GismeteoWinClassLibrary.csprojAssemblyReference.cache

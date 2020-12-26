@@ -7,11 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsClient", "WinFormsC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parser", "Parser\Parser.csproj", "{E5577993-82BC-4593-8279-DBB50481ACAD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GismeteoClassLibrary", "GismeteoClassLibrary\GismeteoClassLibrary.csproj", "{20C9D4F5-14C5-435C-80B5-6DB2D1290D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GismeteoCoreClassLibrary", "GismeteoClassLibrary\GismeteoCoreClassLibrary.csproj", "{20C9D4F5-14C5-435C-80B5-6DB2D1290D2B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiMvc", "WebApiMvc\WebApiMvc.csproj", "{E5B6A1B1-E189-4EF0-9954-E16DDA8AB874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GismeteoWindowsService", "GismeteoWindowsService\GismeteoWindowsService.csproj", "{DE4D7AD5-14E8-4AD5-94FE-995E40C3D74B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GismeteoWinClassLibrary", "GismeteoWinClassLibrary\GismeteoWinClassLibrary.csproj", "{69961E4C-7710-4091-9582-1B2FCA139097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GismeteoWinService", "GismeteoWinService\GismeteoWinService.csproj", "{9778E9B6-E956-4318-82F9-F51E11BE811F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +37,14 @@ Global
 		{E5B6A1B1-E189-4EF0-9954-E16DDA8AB874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5B6A1B1-E189-4EF0-9954-E16DDA8AB874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B6A1B1-E189-4EF0-9954-E16DDA8AB874}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DE4D7AD5-14E8-4AD5-94FE-995E40C3D74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE4D7AD5-14E8-4AD5-94FE-995E40C3D74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE4D7AD5-14E8-4AD5-94FE-995E40C3D74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE4D7AD5-14E8-4AD5-94FE-995E40C3D74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69961E4C-7710-4091-9582-1B2FCA139097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69961E4C-7710-4091-9582-1B2FCA139097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69961E4C-7710-4091-9582-1B2FCA139097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69961E4C-7710-4091-9582-1B2FCA139097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9778E9B6-E956-4318-82F9-F51E11BE811F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9778E9B6-E956-4318-82F9-F51E11BE811F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9778E9B6-E956-4318-82F9-F51E11BE811F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9778E9B6-E956-4318-82F9-F51E11BE811F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

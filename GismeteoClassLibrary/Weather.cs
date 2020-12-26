@@ -6,26 +6,47 @@ using MongoDB.Bson.Serialization.Attributes;
 namespace GismeteoClassLibrary
 {
     public class Weather
-        {
+    {
 
-            [BsonElement("Precipitation")]
-        public string Precipitation { get; set; }
+        [BsonElement("Precipitation")]
+        public string Precipitation
+        {
+            get; set;
+        }
 
         [BsonElement("TemperatureDay")]
-        public string TemperatureDay { get; set; }
+        public string TemperatureDay
+        {
+            get; set;
+        }
 
         [BsonElement("TemperatureNight")]
-        public string TemperatureNight { get; set; }
+        public string TemperatureNight
+        {
+            get; set;
+        }
 
         [BsonElement("Wind")]
-        public string Wind { get; set; }
+        public string Wind
+        {
+            get; set;
+        }
         [BsonElement("Pressure")]
-        public string Pressure { get; set; }
+        public string Pressure
+        {
+            get; set;
+        }
         [BsonElement("Humidity")]
-        public string Humidity { get; set; }
+        public string Humidity
+        {
+            get; set;
+        }
 
         [BsonElement("Date")]
-        public string Date { get; set; }
-
+        public string Date
+        {
+            get; set;
         }
+
     }
+}
