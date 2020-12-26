@@ -1,18 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using GismeteoWinClassLibrary;
+using GismeteoWinService.Controllers;
+using GismeteoWinService.Tools;
 using HtmlAgilityPack;
-using Parser.Controllers;
-using Parser.Tools;
 
 namespace GismeteoWinService
 {
@@ -82,7 +78,7 @@ namespace GismeteoWinService
                     File.WriteAllText(@"C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\ErrorLog.txt", "Ошибка подключения, проверьте соединение" + e.Message);
                     Thread.Sleep(1000*10);
                 }
-                Thread.Sleep(1000 * 3600 * 24);
+                Thread.Sleep(1000 *3600*24);
             } while (status == true);
         }
     }

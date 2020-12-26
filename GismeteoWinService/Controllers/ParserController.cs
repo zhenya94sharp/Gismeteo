@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using GismeteoWinClassLibrary;
 using HtmlAgilityPack;
 
-namespace Parser.Controllers
+namespace GismeteoWinService.Controllers
 {
     class ParserController
     {

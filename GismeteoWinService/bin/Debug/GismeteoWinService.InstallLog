@@ -126,3 +126,97 @@
    logtoconsole = 
    assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
    logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Выполняется удаление сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Выполняется удаление источника EventLog GismeteoWinService.
+Выполняется удаление службы GismeteoWinService из системы...
+Служба GismeteoWinService успешно удалена из системы.
+Выполняется установка сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Устанавливается служба GismeteoWinService...
+Служба GismeteoWinService успешно установлена.
+Создается исходный EventLog GismeteoWinService в журнале Application...
+Выполняется фиксация сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Выполняется установка сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Устанавливается служба GismeteoWinService...
+Создается исходный EventLog GismeteoWinService в журнале Application...
+Выполняется откат для сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Восстанавливается исходное состояние журнала событий для источника GismeteoWinService.
+Выполняется удаление сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Выполняется удаление источника EventLog GismeteoWinService.
+Выполняется удаление службы GismeteoWinService из системы...
+Служба GismeteoWinService успешно удалена из системы.
+Выполняется установка сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Устанавливается служба GismeteoWinService...
+Служба GismeteoWinService успешно установлена.
+Создается исходный EventLog GismeteoWinService в журнале Application...
+Выполняется фиксация сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Выполняется удаление сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Выполняется удаление источника EventLog GismeteoWinService.
+Выполняется удаление службы GismeteoWinService из системы...
+Служба GismeteoWinService успешно удалена из системы.
+Выполняется удаление сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Выполняется удаление источника EventLog GismeteoWinService.
+Предупреждение. Источник GismeteoWinService не зарегистрирован на локальном компьютере.
+Выполняется удаление службы GismeteoWinService из системы...
+Служба GismeteoWinService успешно удалена из системы.
+Выполняется удаление сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Выполняется удаление источника EventLog GismeteoWinService.
+Предупреждение. Источник GismeteoWinService не зарегистрирован на локальном компьютере.
+Выполняется удаление службы GismeteoWinService из системы...
+Служба GismeteoWinService успешно удалена из системы.
+Выполняется установка сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog
+Устанавливается служба GismeteoWinService...
+Служба GismeteoWinService успешно установлена.
+Создается исходный EventLog GismeteoWinService в журнале Application...
+Выполняется фиксация сборки 'C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.exe
+   logfile = C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\GismeteoWinService.InstallLog

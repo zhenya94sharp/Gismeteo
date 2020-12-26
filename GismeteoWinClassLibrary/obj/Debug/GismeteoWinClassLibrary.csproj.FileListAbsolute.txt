@@ -12,4 +12,3 @@ C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\Gismet
 C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\GismeteoWinClassLibrary.csproj.CopyComplete
 C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\GismeteoWinClassLibrary.dll
 C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\GismeteoWinClassLibrary.pdb
-C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinClassLibrary\obj\Debug\GismeteoWinClassLibrary.csprojAssemblyReference.cache

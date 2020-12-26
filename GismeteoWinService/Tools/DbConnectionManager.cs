@@ -5,7 +5,7 @@ using GismeteoWinClassLibrary;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace Parser.Tools
+namespace GismeteoWinService.Tools
 {
     class DbConnectionManager
     {
