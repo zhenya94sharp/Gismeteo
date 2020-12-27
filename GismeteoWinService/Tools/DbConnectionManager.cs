@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using GismeteoWinClassLibrary;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -48,11 +47,10 @@ namespace GismeteoWinService.Tools
                     collectionWeathers.ReplaceOneAsync(new BsonDocument("Name", item.Name), item);
                 }
 
-                //await collectionWeathers.InsertManyAsync(allWeathers);
             }
             catch (Exception e)
             {
-                throw new Exception("Ошибка при добавлении погоды " + e.Message);
+                throw new Exception("Ошибка при добавлении погоды, проверьте соединение с Бд " + e.Message);
             }
         }
     }

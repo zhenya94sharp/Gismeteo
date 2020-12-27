@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Net.Http;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using GismeteoWinClassLibrary;
@@ -11,7 +10,7 @@ using HtmlAgilityPack;
 
 namespace GismeteoWinService.Controllers
 {
-    class ParserController
+    class ParserServiceController
     {
         List<WeatherInCity> tempList = new List<WeatherInCity>();
         private List<Weather> tempListWeathers;
@@ -213,13 +212,14 @@ namespace GismeteoWinService.Controllers
             tegsCollection = doc.DocumentNode.SelectNodes("//div[@class='w_date__day']");
             int index = 0;
             int index2 = 0;
+            string date;
+            string date2;
 
             for (int i = 0; i < 10; i++)
             {
-                string date = tegsCollection[i].InnerHtml;
-                string date2;
+                date= tegsCollection[i].InnerHtml;
 
-                if (date == "Вс" || date == "Сб")
+                 if (date == "Вс" || date == "Сб")
                 {
                     date2= doc.DocumentNode.SelectNodes("//span[@class='w_date__date weekend']")[index].InnerHtml;
                     date2 = date2.Replace('\n', ' ');

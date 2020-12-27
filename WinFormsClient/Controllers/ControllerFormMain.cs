@@ -46,7 +46,7 @@ namespace WinFormsClient
             }
             catch (Exception e)
             {
-                MessageBox.Show("Ошибка Api! " + e.Message);
+                MessageBox.Show("Ошибка соединения с Api! " + e.Message);
                 return null;
             }
         }
@@ -69,9 +69,9 @@ namespace WinFormsClient
                 form.labelPrecipitation.Text = weathersList[indexCity].ListTenDaysWeather[indexDay].Precipitation;
                 form.labelPressure.Text = weathersList[indexCity].ListTenDaysWeather[indexDay].Pressure;
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                MessageBox.Show("Не удалось отобразить погоду");
+                MessageBox.Show("Не удалось отобразить погоду "+e.Message);
             }
            
         }

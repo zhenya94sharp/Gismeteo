@@ -22,7 +22,7 @@ namespace WebApiMvc
             }
             catch (Exception e)
             {
-                return Conflict("Ошибка! Проверьте соединение с Бд" + e.Message);
+                return Conflict("Ошибка! Проверьте соединение с Бд " + e.Message);
             }
         }
 

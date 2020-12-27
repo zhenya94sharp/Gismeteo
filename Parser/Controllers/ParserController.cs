@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Net.Http;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using GismeteoClassLibrary;
@@ -150,7 +149,7 @@ namespace Parser.Controllers
         {
             string precipitation;
 
-            tegsCollection = doc.DocumentNode.SelectNodes("//div[@class='w_prec__value']"); //осадки kakaya to fignya parsitsa
+            tegsCollection = doc.DocumentNode.SelectNodes("//div[@class='w_prec__value']");
 
             if (tegsCollection == null)
             {
@@ -210,15 +209,16 @@ namespace Parser.Controllers
 
         private void GetDate(HtmlDocument doc)
         {
-            tegsCollection = doc.DocumentNode.SelectNodes("//div[@class='w_date__day']");
             int index = 0;
             int index2 = 0;
+
+            tegsCollection = doc.DocumentNode.SelectNodes("//div[@class='w_date__day']");
 
             for (int i = 0; i < 10; i++)
             {
                 string date = tegsCollection[i].InnerHtml;
-                string date2;
 
+                string date2;
                 if (date == "Вс" || date == "Сб")
                 {
                     date2= doc.DocumentNode.SelectNodes("//span[@class='w_date__date weekend']")[index].InnerHtml;
@@ -233,6 +233,7 @@ namespace Parser.Controllers
                     date2 = date2.Replace(" ", "");
                     index2++;
                 }
+
                 tempListWeathers[i].Date = date+" "+date2;
             }
         }

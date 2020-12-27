@@ -41,7 +41,6 @@ namespace WinFormsClient
             this.labelWind = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.labeId = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBoxDays = new System.Windows.Forms.ComboBox();
             this.labelTemperatureNight = new System.Windows.Forms.Label();
@@ -194,17 +193,6 @@ namespace WinFormsClient
             this.label11.TabIndex = 14;
             this.label11.Text = "Выберите город";
             // 
-            // labeId
-            // 
-            this.labeId.AutoSize = true;
-            this.labeId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labeId.Location = new System.Drawing.Point(38, 410);
-            this.labeId.Name = "labeId";
-            this.labeId.Size = new System.Drawing.Size(18, 20);
-            this.labeId.TabIndex = 15;
-            this.labeId.Text = "_";
-            this.labeId.Visible = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -283,7 +271,6 @@ namespace WinFormsClient
             this.Controls.Add(this.labelTemperatureNight);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBoxDays);
-            this.Controls.Add(this.labeId);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.labelWind);
@@ -318,7 +305,6 @@ namespace WinFormsClient
         public System.Windows.Forms.Label labelTemperatureDay;
         public System.Windows.Forms.Label labelPrecipitation;
         public System.Windows.Forms.Label labelWind;
-        public System.Windows.Forms.Label labeId;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBoxDays;
         public System.Windows.Forms.Label labelTemperatureNight;

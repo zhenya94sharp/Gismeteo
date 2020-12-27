@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using GismeteoClassLibrary;
 using MongoDB.Bson;
 using MongoDB.Driver;

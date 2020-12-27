@@ -34,7 +34,7 @@ namespace WebApiMvc.Models.Tools
             }
             catch (Exception e)
             {
-                throw new Exception("Ошибка соединения с БД" + e.Message);
+                throw new Exception("Ошибка! Проверьте соединение с Бд " + e.Message);
             }
         }
     }

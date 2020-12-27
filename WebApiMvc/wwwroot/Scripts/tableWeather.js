@@ -9,7 +9,7 @@ export let tableWeather={
     template:`
         <div>
             <div>
-                <h3><label class="badge badge-primary">Выберите город</label></h3>
+                <label class="badge badge-primary">Выберите город</label>
                 <select v-model="weather">
                 <option disabled value="">Выберите город...</option>
                 <option v-for="weather in weatherList" v-bind:value="weather">{{weather.name}}</option>
@@ -17,7 +17,7 @@ export let tableWeather={
             </div>
  
             <div v-if="weather!==null" >
-                    <h3><label class="badge badge-secondary">Выберите дату</label></h3>
+                    <label class="badge badge-secondary">Выберите день</label>
                     <select v-model="date">
                     <option disabled value="">Выберите день...</option>
                     <option v-for="weather in weather.listTenDaysWeather" v-bind:value="weather.date">{{weather.date}}</option>

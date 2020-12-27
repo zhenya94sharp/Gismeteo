@@ -75,7 +75,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\ParserController.cs" />
+    <Compile Include="Controllers\ParserServiceController.cs" />
     <Compile Include="GismeteoService.cs">
       <SubType>Component</SubType>
     </Compile>

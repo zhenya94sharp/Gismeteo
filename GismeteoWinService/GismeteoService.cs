@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.ServiceProcess;
-using System.Text;
 using System.Threading;
 using GismeteoWinClassLibrary;
 using GismeteoWinService.Controllers;
@@ -37,7 +35,7 @@ namespace GismeteoWinService
 
         private async void Start()
         {
-            ParserController controller = new ParserController();
+            ParserServiceController controller = new ParserServiceController();
             HtmlDocument doc = new HtmlDocument();
             DbConnectionManager manager = new DbConnectionManager();
 
@@ -75,7 +73,7 @@ namespace GismeteoWinService
                 }
                 catch (Exception e)
                 {
-                    File.WriteAllText(@"C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\ErrorLog.txt", "Ошибка подключения, проверьте соединение" + e.Message);
+                    File.WriteAllText(@"C:\Users\G580\Documents\GitHub\Gismeteo\GismeteoWinService\bin\Debug\ErrorLog.txt", "Ошибка подключения, проверьте соединение с Бд и Интернетом " + e.Message);
                     Thread.Sleep(1000*10);
                 }
                 Thread.Sleep(1000 *3600*24);
