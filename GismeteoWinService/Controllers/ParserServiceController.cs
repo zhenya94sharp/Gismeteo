@@ -141,7 +141,7 @@ namespace GismeteoWinService.Controllers
         {
             string precipitation;
 
-            tegsCollection = doc.DocumentNode.SelectNodes("//div[@class='w_prec__value']"); //осадки kakaya to fignya parsitsa
+            tegsCollection = doc.DocumentNode.SelectNodes("//div[@class='w_prec__value']");
 
             if (tegsCollection == null)
             {
