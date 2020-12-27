@@ -34,7 +34,7 @@ namespace GismeteoWinService.Controllers
                 }
                 else
                 {
-                    throw new Exception("Ошибка загрузки. ErrorCode:" + message.StatusCode);
+                    throw new Exception("Ошибка загрузки.  Код ошибки:" + message.StatusCode);
                 }
 
                 return htmlData;
@@ -43,8 +43,6 @@ namespace GismeteoWinService.Controllers
             {
                 throw e;
             }
-
-
         }
 
         public List<WeatherInCity> GetListCities(HtmlDocument doc)
@@ -92,8 +90,6 @@ namespace GismeteoWinService.Controllers
 
                 tempListWeathers.Add(tempWeather);
             }
-
-            Console.WriteLine(DateTime.Now + ":Получены данные о ветре на 10 дней");
         }
 
         private void GetTemperature(HtmlDocument doc)
@@ -123,8 +119,6 @@ namespace GismeteoWinService.Controllers
                     index++;
                 }
             }
-
-            Console.WriteLine(DateTime.Now + ":Получены данные о температуре на 10 дней");
         }
 
         private void GetPressure(HtmlDocument doc)
@@ -141,8 +135,6 @@ namespace GismeteoWinService.Controllers
 
                 tempListWeathers[i - 1].Pressure = pressure;
             }
-
-            Console.WriteLine(DateTime.Now + ":Получены данные о давлении на 10 дней");
         }
 
         private void GetPrecipitation(HtmlDocument doc)
@@ -191,8 +183,6 @@ namespace GismeteoWinService.Controllers
 
                 tempListWeathers[i].Humidity = humidity;
             }
-
-            Console.WriteLine(DateTime.Now + ":Получены данные об осадках на 10 дней");
         }
 
         private void GetSvgImage(HtmlDocument doc, string cityName)
@@ -268,17 +258,13 @@ namespace GismeteoWinService.Controllers
                         htmlData = await LoadHtml(weather.Href);
                         result = true;
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
-                        Console.WriteLine("Ошибка загрузки данных, проверьте соединение" + e.Message);
-                        Console.ReadKey();
+                        Thread.Sleep(1000*10);
                     }
                 } while (!result);
 
                 doc.LoadHtml(htmlData);
-
-                Console.WriteLine(DateTime.Now +
-                                  $": Начинаем парсить погоду в г.{weather.Name} по ссылке {weather.Href}");
 
                 List<Weather> listWeathers = GetListWeathers(doc, weather.Name);
 
@@ -290,7 +276,6 @@ namespace GismeteoWinService.Controllers
                 };
 
                 allWeathers.Add(weatherInCity);
-                Console.WriteLine();
             }
 
             return allWeathers;
