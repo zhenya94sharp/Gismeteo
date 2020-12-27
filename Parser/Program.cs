@@ -34,29 +34,23 @@ namespace Parser
                         htmlData = await controller.LoadHtml(url);
                         result = true;
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
-                        Console.WriteLine("Ошибка загрузки данных, проверьте соединение" + e.Message);
+                        Console.WriteLine("Ошибка загрузки данных, проверьте соединение. Нажмите Enter чтобы повторить загрузку...");
                     }
                 } while (!result);
 
                 doc.LoadHtml(htmlData);
 
-                try
-                {
-                    List<WeatherInCity> listCities = controller.GetListCities(doc);
+                List<WeatherInCity> listCities = controller.GetListCities(doc);
 
-                    List<WeatherInCity> allWeathers = await controller.GetAllWeatherInCity(listCities);
+                List<WeatherInCity> allWeathers = await controller.GetAllWeatherInCity(listCities);
 
-                    manager.AddWeatherAsync(allWeathers);
+                manager.AddWeatherAsync(allWeathers);
 
-                    Console.WriteLine(DateTime.Now + ":Все данные о погоде добавлены в Бд");
-                    Console.WriteLine();
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Ошибка соединения" + e.Message);
-                }
+                Console.WriteLine(DateTime.Now + ":Все данные о погоде добавлены в Бд");
+                Console.WriteLine();
+
 
                 Console.WriteLine("Для повторного запуска нажмите Enter. Для выхода введите exit");
                 string answer = Console.ReadLine();
