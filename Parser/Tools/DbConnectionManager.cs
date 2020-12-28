@@ -30,14 +30,6 @@ namespace Parser.Tools
             collectionWeathers = db.GetCollection<WeatherInCity>("weather");
         }
 
-        public IMongoCollection<WeatherInCity> GetCollection()
-        {
-
-            db = client.GetDatabase("gismeteo");
-            collectionWeathers = db.GetCollection<WeatherInCity>("weather");
-            return collectionWeathers;
-        }
-
         public void AddWeatherAsync(List<WeatherInCity> allWeathers)
         {
             try
@@ -49,7 +41,7 @@ namespace Parser.Tools
             }
             catch (Exception e)
             {
-                throw new Exception("Ошибка при добавлении погоды, проверьте соединение с Бд" + e.Message);
+                Console.WriteLine("Ошибка при добавлении погоды, проверьте соединение с Бд " + e.Message);
             }
         }
     }
