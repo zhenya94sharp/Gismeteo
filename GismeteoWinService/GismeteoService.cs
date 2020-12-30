@@ -37,7 +37,7 @@ namespace GismeteoWinService
         {
             ParserServiceController controller = new ParserServiceController();
             HtmlDocument doc = new HtmlDocument();
-            DbConnectionManager manager = new DbConnectionManager();
+            DbManager manager = new DbManager();
 
             string url;
             string htmlData = "";

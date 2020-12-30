@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using GismeteoClassLibrary;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using WebApiMvc.Models.Tools;
 
 namespace WebApiMvc
 {
@@ -14,7 +13,8 @@ namespace WebApiMvc
         {
             try
             {
-                IMongoCollection<WeatherInCity> collectionW = DbConnectionManager.GetCollectionWeather();
+
+                IMongoCollection<WeatherInCity> collectionW = ConnectionManager.GetCollection();
 
                 List<WeatherInCity> listWeathers = collectionW.Find(new BsonDocument()).ToList();
 

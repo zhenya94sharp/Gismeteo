@@ -4,12 +4,12 @@
     "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\WebApiMvc\\WebApiMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoCoreClassLibrary.csproj": {
+    "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoCoreClassLibrary.csproj",
-        "projectName": "GismeteoCoreClassLibrary",
-        "projectPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoCoreClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj",
+        "projectName": "GismeteoClassLibrary",
+        "projectPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj",
         "packagesPath": "C:\\Users\\G580\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
@@ -92,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoCoreClassLibrary.csproj": {
-                "projectPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoCoreClassLibrary.csproj"
+              "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj"
               }
             }
           }

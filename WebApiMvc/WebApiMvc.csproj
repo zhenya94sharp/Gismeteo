@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -65,7 +65,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GismeteoClassLibrary\GismeteoCoreClassLibrary.csproj" />
+    <ProjectReference Include="..\GismeteoClassLibrary\GismeteoClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>

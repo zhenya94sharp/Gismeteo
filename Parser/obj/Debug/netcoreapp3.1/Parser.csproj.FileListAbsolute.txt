@@ -49,5 +49,5 @@ C:\Users\G580\Documents\GitHub\Gismeteo\Parser\obj\Debug\netcoreapp3.1\Parser.cs
 C:\Users\G580\Documents\GitHub\Gismeteo\Parser\obj\Debug\netcoreapp3.1\Parser.dll
 C:\Users\G580\Documents\GitHub\Gismeteo\Parser\obj\Debug\netcoreapp3.1\Parser.pdb
 C:\Users\G580\Documents\GitHub\Gismeteo\Parser\obj\Debug\netcoreapp3.1\Parser.genruntimeconfig.cache
-C:\Users\G580\Documents\GitHub\Gismeteo\Parser\bin\Debug\netcoreapp3.1\GismeteoCoreClassLibrary.dll
-C:\Users\G580\Documents\GitHub\Gismeteo\Parser\bin\Debug\netcoreapp3.1\GismeteoCoreClassLibrary.pdb
+C:\Users\G580\Documents\GitHub\Gismeteo\Parser\bin\Debug\netcoreapp3.1\GismeteoClassLibrary.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\Parser\bin\Debug\netcoreapp3.1\GismeteoClassLibrary.pdb

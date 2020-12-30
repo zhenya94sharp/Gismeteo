@@ -90,7 +90,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tools\DbConnectionManager.cs" />
+    <Compile Include="Tools\ConnectionManager.cs" />
+    <Compile Include="Tools\DbManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

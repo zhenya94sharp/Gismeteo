@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XnzGjjcYt46sDwHLkjAh8YG8mRUju2ypaD7Slpax5U9tCtmkbOThO5RQHuuTBvXETcGbKnOiRbQtk8bp9SJrQg==",
+  "dgSpecHash": "G1cVRSzmVd/9094ULazwySjoxL+T4N5FOwBIAChSeQz8moAz8FgcjFlS8BwBsOHUlwSR2ao9OaKWvjjYHGNsqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoCoreClassLibrary.csproj",
+  "projectFilePath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\G580\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\G580\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",

@@ -1319,7 +1319,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "GismeteoCoreClassLibrary/1.0.0": {
+      "GismeteoClassLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1327,10 +1327,10 @@
           "MongoDB.Driver": "2.11.5"
         },
         "compile": {
-          "bin/placeholder/GismeteoCoreClassLibrary.dll": {}
+          "bin/placeholder/GismeteoClassLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/GismeteoCoreClassLibrary.dll": {}
+          "bin/placeholder/GismeteoClassLibrary.dll": {}
         }
       }
     }
@@ -4853,15 +4853,15 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "GismeteoCoreClassLibrary/1.0.0": {
+    "GismeteoClassLibrary/1.0.0": {
       "type": "project",
-      "path": "../GismeteoClassLibrary/GismeteoCoreClassLibrary.csproj",
-      "msbuildProject": "../GismeteoClassLibrary/GismeteoCoreClassLibrary.csproj"
+      "path": "../GismeteoClassLibrary/GismeteoClassLibrary.csproj",
+      "msbuildProject": "../GismeteoClassLibrary/GismeteoClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "GismeteoCoreClassLibrary >= 1.0.0",
+      "GismeteoClassLibrary >= 1.0.0",
       "HtmlAgilityPack >= 1.11.28"
     ]
   },
@@ -4892,8 +4892,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoCoreClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoCoreClassLibrary.csproj"
+            "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\G580\\Documents\\GitHub\\Gismeteo\\GismeteoClassLibrary\\GismeteoClassLibrary.csproj"
             }
           }
         }

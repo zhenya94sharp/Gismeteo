@@ -40,13 +40,15 @@ namespace WinFormsClient
                 }
                 else
                 {
-                    MessageBox.Show(json);
+                    MessageBox.Show(json+" Приложение будет закрыто");
+                    Application.Exit();
                     return null;
                 }
             }
             catch (Exception e)
             {
-                MessageBox.Show("Ошибка соединения с Api! " + e.Message);
+                MessageBox.Show("Ошибка соединения с Api! Приложение будет закрыто "+e.Message);
+                Application.Exit();
                 return null;
             }
         }
@@ -71,7 +73,7 @@ namespace WinFormsClient
             }
             catch (Exception e)
             {
-                MessageBox.Show("Не удалось отобразить погоду "+e.Message);
+                MessageBox.Show("Не удалось отобразить погоду. Ошибка: "+e.Message);
             }
            
         }

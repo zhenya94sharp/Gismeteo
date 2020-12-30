@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsClient", "WinFormsC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parser", "Parser\Parser.csproj", "{E5577993-82BC-4593-8279-DBB50481ACAD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GismeteoCoreClassLibrary", "GismeteoClassLibrary\GismeteoCoreClassLibrary.csproj", "{20C9D4F5-14C5-435C-80B5-6DB2D1290D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GismeteoClassLibrary", "GismeteoClassLibrary\GismeteoClassLibrary.csproj", "{20C9D4F5-14C5-435C-80B5-6DB2D1290D2B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiMvc", "WebApiMvc\WebApiMvc.csproj", "{E5B6A1B1-E189-4EF0-9954-E16DDA8AB874}"
 EndProject

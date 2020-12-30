@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Parser/1.0.0": {
         "dependencies": {
-          "GismeteoCoreClassLibrary": "1.0.0",
+          "GismeteoClassLibrary": "1.0.0",
           "HtmlAgilityPack": "1.11.28"
         },
         "runtime": {
@@ -771,13 +771,13 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "GismeteoCoreClassLibrary/1.0.0": {
+      "GismeteoClassLibrary/1.0.0": {
         "dependencies": {
           "MongoDB.Bson": "2.11.5",
           "MongoDB.Driver": "2.11.5"
         },
         "runtime": {
-          "GismeteoCoreClassLibrary.dll": {}
+          "GismeteoClassLibrary.dll": {}
         }
       }
     }
@@ -1362,7 +1362,7 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "GismeteoCoreClassLibrary/1.0.0": {
+    "GismeteoClassLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

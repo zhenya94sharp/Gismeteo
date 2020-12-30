@@ -38,5 +38,5 @@ C:\Users\G580\Documents\GitHub\Gismeteo\WebApiMvc\bin\Debug\netcoreapp3.1\SharpC
 C:\Users\G580\Documents\GitHub\Gismeteo\WebApiMvc\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
 C:\Users\G580\Documents\GitHub\Gismeteo\WebApiMvc\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
 C:\Users\G580\Documents\GitHub\Gismeteo\WebApiMvc\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
-C:\Users\G580\Documents\GitHub\Gismeteo\WebApiMvc\bin\Debug\netcoreapp3.1\GismeteoCoreClassLibrary.dll
-C:\Users\G580\Documents\GitHub\Gismeteo\WebApiMvc\bin\Debug\netcoreapp3.1\GismeteoCoreClassLibrary.pdb
+C:\Users\G580\Documents\GitHub\Gismeteo\WebApiMvc\bin\Debug\netcoreapp3.1\GismeteoClassLibrary.dll
+C:\Users\G580\Documents\GitHub\Gismeteo\WebApiMvc\bin\Debug\netcoreapp3.1\GismeteoClassLibrary.pdb

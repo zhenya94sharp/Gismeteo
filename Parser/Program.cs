@@ -14,7 +14,7 @@ namespace Parser
         {
             ParserController controller = new ParserController();
             HtmlDocument doc = new HtmlDocument();
-            DbConnectionManager manager = new DbConnectionManager();
+            DbManager manager = new DbManager();
 
             string url;
             string htmlData = "";
@@ -53,7 +53,8 @@ namespace Parser
 
 
                 Console.WriteLine("Для повторного запуска нажмите Enter. Для выхода введите exit");
-                string answer = Console.ReadLine();
+                string answer="";
+                answer = Console.ReadLine();
 
                 status = answer != "exit";
             } while (status == true);
