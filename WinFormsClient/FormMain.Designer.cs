@@ -283,6 +283,8 @@ namespace WinFormsClient
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.comboBoxCities);
             this.Controls.Add(this.buttonGetWeathers);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.Text = "Gismeteo";
             this.Load += new System.EventHandler(this.FormMain_Load);
