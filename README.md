@@ -14,23 +14,10 @@
 ---
 Web Api MVC имеет открытый метод, позволяющий делать запрос в БД и 
 представление-клиент для обращения к этому методу и выводу bootstrap таблицы
-с погодой из БД.
+с погодой из БД.<img src="webapi.png">
 
 **WinForms Client**
 ---
 Клиент WinForm для обращения к открытому методу Web Api и выводу полученной
-информации.
-
-
-
-`perlmodstyle`
-
-- [`twitter-kv`](https://github.com/noffle/twitter-kv)
-
-*([Submit a pull request](https://github.com/noffle/common-readme/pulls) and add
-yours here!)*
-
-    $ npm install -g common-readme
-
-`common-readme`
-
+информации.<img src="winforms.png">
+><br>Есть возможность выбора города и дня.
